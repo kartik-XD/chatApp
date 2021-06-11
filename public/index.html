@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeChat</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="left-view">
+            <div class="me">
+                <div class="user-image">
+                    <img src="Sample_User_Icon.png" alt="">
+                </div>
+                <div class="user-name"></div>
+            </div>
+            <div class="online-list">
+                
+            </div>
+        </div>
+        <div class="right-view">
+            <div class="chat-window">
+                <!-- <div class="chat join">Steve joined the chat</div>
+                <div class="chat leave">Steve left the chat</div>
+                <div class="chat left">Hey Guys</div>
+                <div class="chat right">Hey Everyone</div>
+                <div class="chat right">How are you ?</div>
+                <div class="chat left">Fine !</div>
+                <div class="chat join">Steve joined the chat</div>
+                <div class="chat leave">Steve left the chat</div>
+                <div class="chat left">Hey Guys</div> -->
+            </div>
+            <div class="chat-input-box">
+                <input type="text" class="chat-input">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const socket = io();
+      </script>
+    <script src="./script.js"></script>
+    <script src="./socket.js"></script>
+</body>
+</html>
